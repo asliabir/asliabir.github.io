@@ -229,6 +229,7 @@ section .title::after {
     font-weight: 500;
 }
 
+
 .home .home-content a {
     display: inline-block;
     background: crimson;
@@ -247,6 +248,33 @@ section .title::after {
     background: none;
 }
 
+.social-icons {
+    padding: 200px 0 0 0 !important;
+}
+
+.social-icons ul li {
+    display: inline;
+}
+
+.social-icons a{
+    display: inline-block;
+    background: none !important;
+    color: white !important;
+    font-size: 20px !important;
+    padding: 12px !important;
+    margin-top: 0 !important;
+    font-weight: 400 !important;
+    border-radius: 6px !important;
+    border: 0px solid crimson !important;
+    transition: all 0.3s ease !important;
+}
+
+.social-icons a:hover {
+    color: crimson !important;
+    background: none !important;
+    border: 0px solid white !important;
+    transition: all 0.3s ease !important;
+}
 /* about section styling */
 .about .title::after {
     content: "who i am";
@@ -826,6 +854,9 @@ footer span a:hover {
 
     .home .home-content .text-3 {
         font-size: 27px;
+    }
+    .social-icons {
+        padding: 100px 0 0 0 !important;
     }
 
     .about .about-content .right .text,
