@@ -1,6 +1,7 @@
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
     $('html').css({ 'overflow': 'auto', 'height': 'auto', 'position': 'relative' });
+    $('.home').css({ 'position': 'relative' });
   });
 
 
