@@ -254,6 +254,7 @@ section .title::after {
     bottom: 0;
     left: 0;
     display: none;
+
 }
 
 .social-icons ul li {
@@ -263,7 +264,7 @@ section .title::after {
 .social-icons a{
     display: inline-block;
     background: none !important;
-    color: white !important;
+    color:  green !important;
     font-size: 20px !important;
     padding: 12px !important;
     margin-top: 0 !important;
@@ -276,7 +277,7 @@ section .title::after {
 .social-icons a:hover {
     color: crimson !important;
     background: none !important;
-    border: 0px solid white !important;
+    border: 0px solid crimson !important;
     transition: all 0.3s ease !important;
 }
 /* about section styling */
