@@ -5,6 +5,15 @@ $(window).on("load",function(){
     $('.social-icons').css({ 'display': 'inline', 'position': 'fixed' });
   });
 
+  $(window).scroll(function() {
+    clearTimeout($.data(this, 'scrollTimer'));
+    $('.social-icons').hide();
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        //  activity on off-scrolling
+        $('.social-icons').show();
+    }, 250));
+});
+
 
 $(document).ready(function () {
 
